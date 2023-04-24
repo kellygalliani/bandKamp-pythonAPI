@@ -49,11 +49,11 @@ Para executar os testes usando o pytest, siga estas etapas:
     2- Execute os testes no diretório principal do projeto:
       pytest --testdox -vvs
 
----- DOCUMENTAÇÃO -----
+## DOCUMENTAÇÃO -----
 
 A documentação da API está disponível em http://localhost:8000/docs/.
 
----- DEPLOY DA API ----  
+## DEPLOY DA API ----  
 
 https://m5-bandkamp-generic-view-kelly.onrender.com/api/docs/redoc/.
 
