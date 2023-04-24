@@ -1,8 +1,6 @@
-# BandKamp 
+# BandKamp -Este é um projeto criado em Python usando o Django Rest Framework.
 
 - Api no estilo BandCamp - para artistas independentes gerenciarem seus álbuns e músicas lançadas e possibilitar usuários não admin a consumirem e visualizarem esses álbuns e músicas de seus artistas favoritos.
-
-Este é um projeto criado em Python usando o Django Rest Framework.
 
 ## DEPLOY DA API - Documentação 
 
