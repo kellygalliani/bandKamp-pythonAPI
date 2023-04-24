@@ -65,7 +65,7 @@ Para executar os testes usando o pytest, siga estas etapas:
 
 ## Deselvolvedora
 
-- <a name="kelly" href="" target="_blank">Kelly Cristina</a>
+- <a name="kelly" href="https://www.linkedin.com/in/kelly-cristina-galliani/" target="_blank">Kelly Cristina</a>
 
 <a name="termos"></a>
 
