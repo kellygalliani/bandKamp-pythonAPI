@@ -1,34 +1,27 @@
-BandKamp Generic View
+# BandKamp 
 
+- Api no estilo BandCamp - para artistas independentes gerenciarem seus álbuns e músicas lançadas e possibilitar usuários não admin a consumirem e visualizarem esses álbuns e músicas de seus artistas favoritos.
 
-## Instalação dos pacotes de teste
+Este é um projeto criado em Python usando o Django Rest Framework.
 
-- Verifique se os pacotes `pytest` e/ou `pytest-testdox` estão instalados globalmente em seu sistema:
-```shell
-pip list
-```
-- Caso seja listado o `pytest` e/ou `pytest-testdox` e/ou `pytest-django` em seu ambiente global, utilize os seguintes comando para desinstalá-los globalmente:
-```shell
-pip uninstall pytest
-```
+## Pré-requisitos
 
-```shell
-pip uninstall pytest-testdox
-```
+- Python 3.6 ou superior
+- pip
 
-```shell
-pip uninstall pytest-django
-```
+## Instalação
 
-A partir disso, prossiga com os passos:
-
-1. Crie seu ambiente virtual:
+1. Clone o repositório:
 ```bash
+git clone https://github.com/meu-usuario/meu-projeto.git
+
+2 - Entre no diretório do projeto:
+cd meu-projeto
+
+3 - Crie um ambiente virtual:
 python -m venv venv
-```
 
-2. Ative seu venv:
-```bash
+4 - Ative o ambiente virtual:
 # Linux:
 source venv/bin/activate
 
@@ -37,39 +30,30 @@ source venv/bin/activate
 
 # Windows (Git Bash):
 source venv/Scripts/activate
-```
 
-3. Instale o pacote `pytest-testdox`:
-```shell
-pip install pytest-testdox pytest-django
-```
+5 - Instale as dependências:
+pip install -r requirements.txt
 
+6 - --Execução--
+Para executar o servidor de desenvolvimento, use o seguinte comando:
 
-4. Agora é só rodar os testes no diretório principal do projeto:
-```shell
-pytest --testdox -vvs
-```
+python manage.py runserver
 
-5. Caso queira um log mais resumido, basta executar com os testes sem as flags **verbose**:
-```shell
-pytest --testdox
-```
+Isso iniciará o servidor na porta 8000. Você pode acessar a API em http://localhost:8000/.
 
-## Rodando os testes por partes
+7 - Testes
+Para executar os testes usando o pytest, siga estas etapas:
 
-Caso você tenha interesse em rodar apenas um diretório de testes específico, pode utilizar o comando:
+    1- Instale os pacotes pytest, pytest-testdox e pytest-django:
+      pip install pytest pytest-testdox pytest-django
+    2- Execute os testes no diretório principal do projeto:
+      pytest --testdox -vvs
 
-- Rodando testes de users:
-```python
-pytest --testdox -vvs tests/users/
-```
+---- DOCUMENTAÇÃO -----
 
-- Rodando testes de albums:
-```python
-pytest --testdox -vvs tests/albums/
-```
+A documentação da API está disponível em http://localhost:8000/docs/.
 
-- Rodando testes de songs:
-```python
-pytest --testdox -vvs tests/songs/
-```
+---- DEPLOY DA API ----  
+
+https://m5-bandkamp-generic-view-kelly.onrender.com/api/docs/redoc/.
+
