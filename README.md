@@ -5,7 +5,7 @@
 
 ## DEPLOY DA API - Documentação 
 
-- <a name="doc" href="https://m5-bandkamp-generic-view-kelly.onrender.com/api/docs/redoc/" target="_blank">Link da Documentação</a>
+- <a name="doc" href="https://m5-bandkamp-generic-view-kelly.onrender.com/api/docs/redoc/" target="blank">Link da Documentação</a>
 
 ## Pré-requisitos
 
