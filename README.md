@@ -3,11 +3,8 @@
 - Api no estilo BandCamp - para artistas independentes gerenciarem seus álbuns e músicas lançadas e possibilitar usuários não admin a consumirem e visualizarem esses álbuns e músicas de seus artistas favoritos.
 
 Este é um projeto criado em Python usando o Django Rest Framework.
-## DOCUMENTAÇÃO 
 
-A documentação da API está disponível em http://localhost:8000/docs/.
-
-## DEPLOY DA API  
+## DEPLOY DA API - Documentação 
 
 https://m5-bandkamp-generic-view-kelly.onrender.com/api/docs/redoc/.
 
