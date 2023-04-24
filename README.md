@@ -4,8 +4,8 @@
 - Api no estilo BandCamp - para artistas independentes gerenciarem seus álbuns e músicas lançadas e possibilitar usuários não admin a consumirem e visualizarem esses álbuns e músicas de seus artistas favoritos.
 
 ## DEPLOY DA API - Documentação 
-
-https://m5-bandkamp-generic-view-kelly.onrender.com/api/docs/redoc/.
+- <a name="doc" href="[https://www.linkedin.com/in/kelly-cristina-galliani/](https://m5-bandkamp-generic-view-kelly.onrender.com/api/docs/redoc/)" target="_blank">Link da Documentação</a>
+.
 
 ## Pré-requisitos
 
