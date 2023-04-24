@@ -58,7 +58,19 @@ Para executar os testes usando o pytest, siga estas etapas:
     1- Instale os pacotes pytest, pytest-testdox e pytest-django:
       
       ```pip install pytest pytest-testdox pytest-django```
-    2- Execute os testes no diretório principal do projeto:
+   
+   2- Execute os testes no diretório principal do projeto:
       
       ```pytest --testdox -vvs```
+
+## Deselvolvedora
+
+- <a name="kelly" href="" target="_blank">Kelly Cristina</a>
+
+<a name="termos"></a>
+
+## Termos de uso
+
+Este é um projeto Open Source para fins educacionais e não comerciais, **Tipo de licença** - <a name="mit" href="https://opensource.org/licenses/MIT" target="_blank">MIT</a>
+
 
