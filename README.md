@@ -85,6 +85,7 @@ Isso iniciará o servidor na porta 8000. Você pode acessar a API em http://loca
 
 7 - Testes
 Para executar os testes usando o pytest, siga estas etapas:
+
 -----------1- Instale os pacotes pytest, pytest-testdox e pytest-django:
       
       ```pip install pytest pytest-testdox pytest-django```
