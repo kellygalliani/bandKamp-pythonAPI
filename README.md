@@ -46,6 +46,36 @@ source venv/Scripts/activate
 pip install -r requirements.txt
 ```
 
+6 - Conexão com o Bando de Dados - Postgre
+
+Certifique-se de ter o pacote psycopg2 instalado:
+```pip install psycopg2```
+
+Defina as variáveis de ambiente com os valores apropriados:
+```
+export SECRET_KEY=your-secret-key
+export POSTGRES_USERNAME=your-username
+export POSTGRES_PASSWORD=your-password
+export POSTGRES_DB_NAME=your-db-name
+export POSTGRES_DB_HOST=your-db-host
+export POSTGRES_DB_PORT=your-db-port
+```
+
+Atualize as configurações do banco de dados em settings.py para usar as variáveis de ambiente:
+```
+import os
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': os.environ.get('POSTGRES_DB_NAME'),
+        'USER': os.environ.get('POSTGRES_USERNAME'),
+        'PASSWORD': os.environ.get('POSTGRES_PASSWORD'),
+        'HOST': os.environ.get('POSTGRES_DB_HOST'),
+        'PORT': os.environ.get('POSTGRES_DB_PORT'),
+    }
+}
+```
 6 - --Execução--
 Para executar o servidor de desenvolvimento, use o seguinte comando:
 ```
